@@ -1,0 +1,23 @@
+{
+  "name": "idbara/esign",
+  "description": "E-Signature Service Client BSRE",
+  "license": "MIT",
+  "require": {
+    "guzzlehttp/guzzle": "7.8.1",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+        "psr-4": {
+        "Esign\\": "src/"
+        }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Esign\\Tests\\": "tests/"
+    }
+  }
+
+}
