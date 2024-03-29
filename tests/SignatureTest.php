@@ -17,8 +17,8 @@ class SignatureTest extends TestCase
     {
         $params = array(
             'file' => fopen('./tte-test.pdf', 'r'),
-            'nik' => '3327011810810001',
-            'passphrase' => 'Adiv@Tandik@18',
+            'nik' => '',
+            'passphrase' => '',
             'tampilan' => 'VISIBLE',
             'height' => '195',
             'width' => '100',
